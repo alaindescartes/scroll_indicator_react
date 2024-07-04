@@ -1,3 +1,14 @@
+# Scroll Progress Indicator
+
+The `Scroll` component is designed to fetch and display a list of posts from a JSON placeholder API and visually indicate the scroll progress as you move through the list. This provides a simple yet effective user experience enhancement by showing a progress bar at the top of the screen that fills as the user scrolls down the page.
+
+## Features
+
+- **Data Fetching**: Retrieves a list of posts from `https://jsonplaceholder.typicode.com/posts`.
+- **Scroll Progress**: Displays a dynamic progress bar that indicates how much of the page has been scrolled.
+- **Error Handling**: Implements basic error handling to inform the user if data fetching fails.
+- **Performance Optimization**: Utilizes `requestAnimationFrame` for optimizing scroll event handling to ensure smooth performance.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
