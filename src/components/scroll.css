@@ -1,0 +1,49 @@
+/* General page settings */
+body {
+  font-family: Arial, sans-serif; /* Ensures text is easily readable */
+  background-color: #f0f2f5; /* A soft background color that is easy on the eyes */
+}
+
+/* Container for posts */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Individual post styling */
+.post {
+  background-color: #ffffff; /* Bright background for the posts */
+  border: 1px solid #dedede; /* Subtle border for each post */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between posts */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  width: 80%; /* Responsive width, adjust based on your layout */
+  max-width: 600px; /* Maximum width to maintain readability */
+}
+
+/* Styling for post titles */
+.post-title {
+  color: #2a2a2a; /* Dark color for contrast */
+  font-size: 24px; /* Large font size for impact */
+  margin-bottom: 10px; /* Space after the title */
+}
+
+/* Styling for user ID */
+.user-id {
+  font-size: 18px;
+  color: #555; /* Darker grey for distinction */
+  margin-bottom: 10px; /* Space after the user ID */
+  background-color: #e9ecef; /* Light background to highlight the user ID */
+  padding: 5px 10px; /* Padding around the user ID for emphasis */
+  border-radius: 5px; /* Rounded corners for the user ID highlight */
+}
+
+/* Main content of the post */
+.post-body {
+  font-size: 16px; /* Optimal font size for reading */
+  line-height: 1.5; /* Adequate line spacing for readability */
+  color: #4a4a4a; /* Slightly lighter than the title for hierarchical styling */
+}
